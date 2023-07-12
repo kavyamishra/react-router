@@ -1,0 +1,117 @@
+.App {
+    text-align: center;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 10%;
+    justify-content: center;
+  }
+  
+  .card-one {
+    padding: 10px 10px 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    background: rgb(137, 130, 255);
+    background: linear-gradient(180deg, rgba(137, 130, 255, 1) 0%, rgba(158, 97, 255, 1) 39%, rgba(3, 41, 193, 0.944) 100%);
+    color: azure;
+    border-radius: 20px;
+  }
+  .score{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100px;
+    background: rgb(137, 130, 255);
+    background: linear-gradient(180deg, rgba(137, 130, 255, 1) 0%, rgb(158, 97, 255) 39%, rgba(3, 41, 193, 0.6473317865429234) 100%);
+    border-radius: 55px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  .text{
+    margin-top: 10px;
+    color: rgb(178, 173, 173);
+    font-size: 13px;
+  }
+  
+  .card-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* border: 1px solid grey; */
+  }
+  .items{
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;  
+    margin-bottom: 10px;
+  }
+  .text-type{
+    margin-right: 3em;
+    position: relative;
+    left: 10px;
+  }
+  .marks{
+    color: black;
+    position: relative;
+    right: 10px;
+  }
+  .marks-two{
+    position: relative;
+    right: -10px;
+  }
+  .reaction{
+    padding: 5px;
+    background-color: rgba(233, 113, 113, 0.574);
+    border-radius: 20px;
+    color: rgba(255, 0, 0, 0.796);
+  }
+  .memory{
+    padding: 5px;
+    background-color: rgba(231, 231, 56, 0.574);
+    border-radius: 20px;
+    color: rgb(205, 205, 12);
+  }
+  .verbal{
+    padding: 5px;
+    background-color: rgba(159, 235, 163, 0.574);
+    border-radius: 20px;
+    color: rgb(17, 239, 28);
+  }
+  .visual{
+    padding: 5px;
+    background-color: rgba(171, 233, 58, 0.574);
+    border-radius: 20px;
+    color: rgb(145, 217, 12);
+  }
+  .params{
+    position: relative;
+    left: 20px;
+    color: black;
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
+  }
+  button{
+    position: relative;
+    left: 20px;
+    background-color: black !important;
+    color: azure;
+    border-radius: 15px;
+    height: 30px;
+  }
+  .title{
+    position: relative;
+    left: -25px;
+    font-size: 20px;
+  }

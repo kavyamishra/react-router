@@ -1,0 +1,94 @@
+#root{
+    display: flex;
+    flex-direction: column;
+  }
+  .App {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .todos {
+    margin-top: 20px;
+    align-self: center;
+  }
+  .todos > div{
+      display: flex;
+      width: auto;
+      height: 50px;
+      min-width: 315px;
+      background-color: rgb(236 234 234 / 50%);
+      padding: 5px 20px 5px 20px ;
+      border-radius: 10px;
+      font-family: monospace;
+      margin-top: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      justify-content: space-between;
+  }
+  
+  h3 {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  button.mark-done {
+    padding: 4px 8px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  button.mark-done:hover {
+    background-color: #d32f2f;
+  }
+  
+  p.no-tasks {
+    color: #888;
+    font-style: italic;
+  }
+  
+  #signature{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    text-align: center;
+  }
