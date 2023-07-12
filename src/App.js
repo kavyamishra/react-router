@@ -1,10 +1,10 @@
 import './App.css';
 import { Route, Routes, Link } from "react-router-dom"
-import Home from './Home';
-import Contacts from './Contacts';
-import Gallery from './Gallery';
-import Info from './Info';
-import About from './About';
+import Home from './components/Home';
+import Contacts from './components/Contacts';
+import Gallery from './components/Gallery';
+import Info from './components/Info';
+import About from './components/About';
 
 function App() {
   return (
