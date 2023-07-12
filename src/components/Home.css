@@ -1,0 +1,64 @@
+/* LineComponent.css */
+
+.line-component {
+    margin: 20px 0;
+  }
+  
+  .color-input {
+    margin-bottom: 10px;
+  }
+  
+  .color-input label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .thickness-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .thickness-input label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .thickness-input input[type="range"] {
+    flex: 1;
+  }
+  
+  .thickness-input span {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .line-container {
+    position: relative;
+    height: 2px;
+    background-color: #ccc;
+    overflow: hidden;
+  }
+  
+  .line-container::before,
+  .line-container::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #ccc;
+    transform: translateY(-50%);
+  }
+  
+  .line-container::before {
+    left: 0;
+    transform-origin: left center;
+    transform: rotate(-20deg) translateY(-50%);
+  }
+  
+  .line-container::after {
+    right: 0;
+    transform-origin: right center;
+    transform: rotate(20deg) translateY(-50%);
+  }
+  
+  
